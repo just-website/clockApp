@@ -1,0 +1,29 @@
+.input {
+    position: relative;
+    .input__field {
+        display: block;
+        font-size: 18px;
+        width: 300px;
+        max-width: calc(100% - 20px);
+        padding: 5px 10px;
+    }
+
+    .input__preview {
+        width: 322px;
+        position: absolute;
+        top: 34px;
+        left: 0;
+        border: 1px solid #212121;
+        background-color: #FFFFFF;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .input__field-item {
+        padding: 10px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #ececec;
+        }
+    }
+}

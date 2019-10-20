@@ -1,0 +1,21 @@
+
+.btn {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 18px;
+    line-height: 24px;
+    padding: 5px 10px;
+    min-width: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #212121;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: box-shadow .15s;
+    margin: 10px 20px 0 0;
+
+    &:active {
+        box-shadow: none;
+        transition: box-shadow .15s;
+    }
+}

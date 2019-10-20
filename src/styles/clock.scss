@@ -1,0 +1,22 @@
+.clock {
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 48px;
+    display: inline-flex;
+    padding: 15px;
+    border: 10px solid rgba(#212121, .75);
+    border-radius: 10px;
+    margin: 45px 0;
+    width: 185px;
+    justify-content: center;
+
+    div {
+        width: 50px;
+        text-align: left;
+    }
+}
+
+.clock-name {
+    display: inline-block;
+    font-size: 35px;
+    margin-left: 20px;
+}
