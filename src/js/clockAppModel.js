@@ -5,7 +5,7 @@ import { Clock } from './clockComponent';
 export class ClockModel {
     constructor() {
         this.cityInput = new Input;
-        this.location = '' //'Europe/Moscow';
+        this.location = 'Europe/Moscow';
         this.controls = document.querySelector('.js-controls');
         this.clockArea = document.querySelector('.js-clock-container');
         this.dateArea = document.querySelector('.js-date-day');
@@ -22,7 +22,8 @@ export class ClockModel {
         this.controls.addEventListener('click', (event) => {
             const target = event.target;
             this.controlEvent(target);
-        })
+        });
+        this.addClock();
     }
 
     controlEvent(elem) {

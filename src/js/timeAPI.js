@@ -1,4 +1,4 @@
-const url = 'http://worldtimeapi.org/api/timezone';
+const url = 'https://cors-anywhere.herokuapp.com/http://worldtimeapi.org/api/timezone';
 let timeZones = [];
 
 export class TimeAPI {
